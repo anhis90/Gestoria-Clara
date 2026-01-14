@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestoría Clara | Trámites Rápidos y Seguros</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Gestoría Clara ofrece servicios rápidos y seguros para trámites de automotor, inmuebles y registro civil en Capital y Provincia.">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo-container">
+                <img src="imagenes/logo.png" alt="Gestoría Clara Logo"
+                    style="height: 60px; filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#faq">Preguntas Frecuentes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <button class="btn btn-outline" id="btnAuth">Ingresar / Registrarse</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Gestoría Clara</h1>
+            <p>"Trámites Rápidos y Seguros en Capital y Provincia"</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary" id="openTramites">Ver Trámites</button>
+                <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <section class="about container" id="nosotros">
+        <div class="about-grid">
+            <div class="about-text">
+                <div class="section-title" style="text-align: left; margin-bottom: 30px;">
+                    <h2>Nosotros</h2>
+                </div>
+                <p class="premium-p">Somos una gestoría dedicada a brindar soluciones rápidas y seguras, con atención
+                    personalizada y acompañamiento en cada trámite.</p>
+                <div class="how-we-work">
+                    <h3>Cómo trabajamos:</h3>
+                    <ul class="work-steps">
+                        <li><i class="fas fa-comments"></i> Nos contactas</li>
+                        <li><i class="fas fa-search-dollar"></i> Analizamos tu trámite</li>
+                        <li><i class="fas fa-bolt"></i> Lo resolvemos rápido y sin vueltas</li>
+                    </ul>
+                    <p class="highlight-text">👉 Damos seguridad y orden.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="security-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h4>Seguridad y legalidad</h4>
+                    <p>"Trabajamos con total confidencialidad y conforme a la normativa vigente."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Services Grid -->
+    <section class="services container" id="servicios">
+        <div class="section-title">
+            <h2>Nuestros Servicios</h2>
+            <p>Especialistas en soluciones administrativas integrales</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-category="automotor">
+                <i class="fas fa-car-side"></i>
+                <h3>Automotores</h3>
+                <p>Transferencias, informes, multas y más.</p>
+            </div>
+            <div class="service-card" data-category="inmuebles_caba">
+                <i class="fas fa-city"></i>
+                <h3>Inmuebles - Capital</h3>
+                <p>Informes y certificados del RPI CABA.</p>
+            </div>
+            <div class="service-card" data-category="inmuebles_pba">
+                <i class="fas fa-landmark"></i>
+                <h3>Inmuebles - Provincia</h3>
+                <p>Informes, certificados y oficios del RPBA.</p>
+            </div>
+            <div class="service-card" data-category="registro">
+                <i class="fas fa-users"></i>
+                <h3>Registro Civil</h3>
+                <p>Partidas de nacimiento, matrimonio y defunción.</p>
+            </div>
+            <div class="service-card" data-category="nautica">
+                <i class="fas fa-ship"></i>
+                <h3>Gestoría Náutica</h3>
+                <p>Registros y trámites de embarcaciones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq container" id="faq">
+        <div class="section-title">
+            <h2>📄 Preguntas frecuentes</h2>
+            <p>Todo lo que necesitas saber antes de empezar</p>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Cuánto demora un trámite?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Depende del tipo de trámite. Los informes suelen demorar entre 24 y 72 horas hábiles. Trámites
+                        más complejos como transferencias pueden tardar de 3 a 7 días hábiles según el organismo
+                        correspondiente.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Qué documentación necesito?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Generalmente solicitamos DNI, constancia de CUIL/CUIT y los datos específicos del bien o persona
+                        (título, cédula, partidas anteriores). Te informaremos detalladamente para tu caso particular.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>¿Trabajan a distancia?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>¡Sí! Realizamos gestiones digitales en todo el país. Puedes enviarnos la documentación por medios
+                        digitales o correo, y nos encargamos de que el resultado llegue a tus manos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Contacto</h2>
+                <p>¿Tienes alguna duda? Escríbenos directamente</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://wa.me/541165160612" target="_blank" class="contact-btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 1165160612
+                </a>
+                <a href="mailto:elvis196032@gmail.com" class="contact-btn">
+                    <i class="far fa-envelope"></i> Mail: elvis196032@gmail.com
+                </a>
+            </div>
+            <div class="business-info" style="margin-top: 40px; opacity: 0.9;">
+                <p><i class="far fa-clock"></i> <strong>Horarios de atención:</strong> Lunes a Viernes de 9 a 18 hs</p>
+                <p><i class="fas fa-lock"></i> <strong>Seguridad y legalidad:</strong> Trabajamos con total
+                    confidencialidad y conforme a la normativa vigente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments / Testimonials Section -->
+    <section class="comments container" id="comentarios">
+        <div class="section-title">
+            <h2>Experiencia de Clientes</h2>
+            <p>Lo que dicen quienes ya confiaron en nosotros</p>
+        </div>
+
+        <!-- Form for adding comments -->
+        <div class="comment-form">
+            <h3>Deja tu opinión</h3>
+            <form id="commentForm">
+                <div class="form-group">
+                    <label>Nombre:</label>
+                    <input type="text" id="userName" placeholder="Tu nombre o alias" required>
+                </div>
+                <div class="form-group">
+                    <label>Comentario:</label>
+                    <textarea id="userComment" rows="4" placeholder="Cuéntanos tu experiencia..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Sube una foto de tu trámite (opcional):</label>
+                    <input type="file" id="userPhoto" accept="image/*">
+                </div>
+                <button type="submit" class="btn btn-primary">Publicar Comentario</button>
+            </form>
+        </div>
+
+        <div class="comment-list" id="commentList">
+            <!-- Comments will be injected here -->
+        </div>
+    </section>
+
+    <!-- --- Modals --- -->
+
+    <!-- Modal: Services/Procedures -->
+    <div class="modal" id="modalTramites">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalTitleContainer">
+                <h2 style="margin-bottom: 20px; color: var(--primary);">Realiza tu Trámite</h2>
+                <p style="margin-bottom: 30px;">Selecciona el trámite para ver requisitos y papeles necesarios.</p>
+            </div>
+
+            <div id="proceduresList">
+                <!-- Data will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Auth (Registration/Login) -->
+    <div class="modal" id="modalAuth">
+        <div class="modal-content" style="max-width: 400px; text-align: center;">
+            <span class="close-modal">&times;</span>
+            <h2 id="authTitle">Ingresar</h2>
+            <div class="auth-forms" style="margin-top: 30px;">
+                <div class="form-group">
+                    <input type="email" placeholder="Email" id="authEmail">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Contraseña" id="authPass">
+                </div>
+                <button class="btn btn-primary" style="width: 100%;">Acceder</button>
+                <p style="margin-top: 20px; font-size: 0.9rem;">
+                    ¿No tienes cuenta? <a href="#" id="toggleAuth" style="color: var(--secondary);">Regístrate aquí</a>
+                </p>
+                <hr style="margin: 20px 0;">
+                <button class="btn btn-outline"
+                    style="width: 100%; border-color: var(--primary); color: var(--primary);" id="btnVisitor">Ingresar
+                    como Visitante</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+        style="padding: 40px 0; background: var(--bg-cream); text-align: center; border-top: 1px solid var(--accent);">
+        <p>&copy; 2026 Gestoría Clara. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
